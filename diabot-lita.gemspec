@@ -15,4 +15,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_runtime_dependency 'lita-discord_oauth', '~> 0.1.alpha'
+  spec.add_runtime_dependency 'lita-diabetter', '~> 0.1.alpha'
+  spec.add_runtime_dependency 'lita-awyiss'
+  spec.add_runtime_dependency 'lita-excuses'
+  spec.add_runtime_dependency 'lita-dig'
 end
