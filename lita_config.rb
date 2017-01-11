@@ -22,8 +22,8 @@ Lita.configure do |config|
   # appropriate gem to the Gemfile.
   config.robot.adapter = :discord_oauth
 
-  config.adapters.discord_oauth.token = 'MjY3OTYwODA4MDQ1MTUwMjA5.C1UtEQ.1PV7sDea9j4w8FUhz0-pv8cUbiQ'
-  config.adapters.discord_oauth.client = '267960808045150209'
+  config.adapters.discord_oauth.token = ENV['TOKEN']
+  config.adapters.discord_oauth.client = ENV['CLIENT']
 
 
   config.redis[:host] = ENV['DIABOT_REDIS_HOST']
