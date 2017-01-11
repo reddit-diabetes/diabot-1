@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'lita'
-gem 'lita-discord_oauth', '~> 0.1.alpha'
-gem 'lita-diabetter', '~> 0.1.alpha'
+gem 'lita-discord_oauth', '~> 1.0.0'
+gem 'lita-diabetter', '~> 1.0.0'
 gem 'lita-awyiss'
 gem 'lita-excuses'
 
