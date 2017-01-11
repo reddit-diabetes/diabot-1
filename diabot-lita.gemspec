@@ -1,12 +1,12 @@
 Gem::Specification.new do |spec|
   spec.name          = 'diabot-lita'
-  spec.version       = '0.1.0'
+  spec.version       = '1.0.0'
   spec.version       = "#{spec.version}.alpha#{ENV['TRAVIS_BUILD_NUMBER']}" if ENV['TRAVIS']
   spec.authors       = ['Cas Eliëns']
   spec.email         = ['cas.eliens@gmail.com']
   spec.description   = 'Diabetes Discord Bot'
   spec.summary       = 'A Diabetes-themed Discord bot using Lita'
-  spec.homepage      = 'https://github.com/cascer1/diabot-lita'
+  spec.homepage      = 'https://github.com/cascer1/diabot'
   spec.license       = 'GPL-3.0+'
 
   spec.files         = `git ls-files`.split($/)
