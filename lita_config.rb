@@ -21,7 +21,6 @@ Lita.configure do |config|
   # The adapter you want to connect with. Make sure you've added the
   # appropriate gem to the Gemfile.
   config.robot.adapter = :discord_oauth
-
   config.adapters.discord_oauth.token = ENV['TOKEN']
   config.adapters.discord_oauth.client = ENV['CLIENT']
 
