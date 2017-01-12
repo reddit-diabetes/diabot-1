@@ -14,8 +14,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'lita-discord_oauth', '~> 0.1.alpha'
-  spec.add_runtime_dependency 'lita-diabetter', '~> 0.1.alpha'
+  spec.add_runtime_dependency 'lita-discord_oauth'
+  spec.add_runtime_dependency 'lita-diabetter'
   spec.add_runtime_dependency 'lita-awyiss'
   spec.add_runtime_dependency 'lita-excuses'
   spec.add_runtime_dependency 'lita-dig'
