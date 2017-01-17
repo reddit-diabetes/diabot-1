@@ -42,7 +42,7 @@ GEM
     lita-awyiss (0.1.1)
       json (~> 1.8)
       lita (~> 4, >= 4.0.0)
-    lita-diabetter (1.2.3)
+    lita-diabetter (1.2.6)
     lita-dice (0.0.1)
       lita (>= 2.7)
     lita-discord_oauth (1.1.0)
