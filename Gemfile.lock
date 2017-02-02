@@ -1,18 +1,14 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.0.1)
-      concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (~> 0.7)
-      minitest (~> 5.1)
-      tzinfo (~> 1.1)
-    concurrent-ruby (1.0.4)
-    discordrb (3.1.1)
-      activesupport
+    discordrb (3.2.0.1)
+      discordrb-webhooks (~> 3.2.0.1)
       opus-ruby
-      rbnacl
+      rbnacl (~> 3.4.0)
       rest-client
       websocket-client-simple (>= 0.3.0)
+    discordrb-webhooks (3.2.0.1)
+      rest-client
     domain_name (0.5.20161129)
       unf (>= 0.0.5, < 1.0.0)
     event_emitter (0.2.5)
@@ -24,7 +20,7 @@ GEM
     http_router (0.11.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
-    i18n (0.7.0)
+    i18n (0.8.0)
     ice_nine (0.11.2)
     json (1.8.6)
     lita (4.7.1)
@@ -45,7 +41,7 @@ GEM
     lita-diabetter (1.2.6)
     lita-dice (0.0.1)
       lita (>= 2.7)
-    lita-discord_oauth (1.1.1)
+    lita-discord_oauth (1.1.2)
       discordrb (>= 3.1.1)
     lita-excuses (0.0.6)
       lita (>= 2.2)
@@ -54,7 +50,6 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
-    minitest (5.10.1)
     multi_json (1.12.1)
     multipart-post (2.0.0)
     netrc (0.11.0)
@@ -65,7 +60,7 @@ GEM
     puma (3.7.0)
     rack (1.6.5)
     rb-readline (0.5.3)
-    rbnacl (4.0.1)
+    rbnacl (3.4.0)
       ffi
     redis (3.3.3)
     redis-namespace (1.5.2)
@@ -76,15 +71,12 @@ GEM
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
     thor (0.19.4)
-    thread_safe (0.3.5)
-    tzinfo (1.2.2)
-      thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.2-x64-mingw32)
     url_mount (0.2.1)
       rack
-    websocket (1.2.3)
+    websocket (1.2.4)
     websocket-client-simple (0.3.0)
       event_emitter
       websocket
