@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'lita'
 gem 'lita-dice' 
-gem 'lita-discord_oauth'
+#gem 'lita-discord_oauth'
 gem 'lita-diabetter'
 gem 'lita-awyiss'
 gem 'lita-excuses'

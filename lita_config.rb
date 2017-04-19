@@ -16,19 +16,21 @@ Lita.configure do |config|
   # What is considered a user ID will change depending on which adapter you use.
   # config.robot.admins = ["1", "2"]
 
-  config.robot.admins = ['189436077793083392']
+  # config.robot.admins = ['189436077793083392']
 
   # The adapter you want to connect with. Make sure you've added the
   # appropriate gem to the Gemfile.
-  config.robot.adapter = :discord_oauth
-  config.adapters.discord_oauth.token = ENV['TOKEN']
-  config.adapters.discord_oauth.client = ENV['CLIENT']
+  config.robot.adapter = :shell
+  # config.adapters.discord_oauth.token = ENV['TOKEN']
+  # config.adapters.discord_oauth.client = ENV['CLIENT']
 
 
-  config.redis[:host] = ENV['DIABOT_REDIS_HOST']
-  config.redis[:port] = ENV['DIABOT_REDIS_PORT']
-  config.redis[:user] = ENV['DIABOT_REDIS_USER']
-  config.redis[:password] = ENV['DIABOT_REDIS_PASS']
+  # config.redis[:host] = ENV['DIABOT_REDIS_HOST']
+  # config.redis[:port] = ENV['DIABOT_REDIS_PORT']
+  # config.redis[:user] = ENV['DIABOT_REDIS_USER']
+  # config.redis[:password] = ENV['DIABOT_REDIS_PASS']
+
+  config.redis[:url] = ENV["LITA_REDIS_URL"] || "redis://127.0.0.1:6379/"
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
