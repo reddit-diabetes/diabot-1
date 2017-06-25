@@ -2,9 +2,12 @@ source 'https://rubygems.org'
 
 gem 'lita'
 gem 'lita-discord_oauth'
-gem 'lita-diabetter'
 gem 'lita-awyiss'
 gem 'lita-excuses'
+gem 'lita-diabetes', :git => 'https://github.com/reddit-diabetes/lita-diabetes.git'
+
+# Use cascer1's diabetes handler
+# gem 'lita-diabetter'
 
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
