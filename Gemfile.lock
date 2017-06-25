@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/cascer1/lita-diabetter.git
+  revision: a21d7ec696e46e6c9fd3a9eb7f2d93d249d4e412
+  branch: develop
+  specs:
+    lita-diabetter (1.2.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -38,7 +45,6 @@ GEM
     lita-awyiss (0.1.1)
       json (~> 1.8)
       lita (~> 4, >= 4.0.0)
-    lita-diabetter (1.2.6)
     lita-discord_oauth (1.1.2)
       discordrb (>= 3.1.1)
     lita-excuses (0.0.6)
@@ -85,9 +91,9 @@ PLATFORMS
 DEPENDENCIES
   lita
   lita-awyiss
-  lita-diabetter
+  lita-diabetter!
   lita-discord_oauth
   lita-excuses
 
 BUNDLED WITH
-   1.14.3
+   1.15.1
