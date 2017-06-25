@@ -15,8 +15,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_runtime_dependency 'lita-discord_oauth'
-  # spec.add_runtime_dependency 'lita-diabetter'
-  spec.add_runtime_dependency 'lita-diabetes'
+  spec.add_runtime_dependency 'lita-diabetter'
+  # spec.add_runtime_dependency 'lita-diabetes'
   spec.add_runtime_dependency 'lita-awyiss'
   spec.add_runtime_dependency 'lita-excuses'
   spec.add_runtime_dependency 'lita-dig'
