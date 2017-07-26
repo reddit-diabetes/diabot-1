@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'diabot-lita'
-  spec.version       = '1.0.0'
+  spec.version       = '1.1.0'
   spec.version       = "#{spec.version}.alpha#{ENV['TRAVIS_BUILD_NUMBER']}" if ENV['TRAVIS']
   spec.authors       = ['Cas Eliëns']
   spec.email         = ['cas.eliens@gmail.com']
@@ -16,6 +16,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'lita-discord_oauth'
   spec.add_runtime_dependency 'lita-diabetter'
+  # spec.add_runtime_dependency 'lita-diabetes'
   spec.add_runtime_dependency 'lita-awyiss'
   spec.add_runtime_dependency 'lita-excuses'
   spec.add_runtime_dependency 'lita-dig'
