@@ -4,6 +4,7 @@ gem 'lita'
 gem 'lita-awyiss'
 gem 'lita-discord_oauth'
 gem 'lita-excuses'
+gem 'lita-keepalive'
 
 # Use official handler
 # gem 'lita-diabetes', :git => 'https://github.com/reddit-diabetes/lita-diabetes.git'
