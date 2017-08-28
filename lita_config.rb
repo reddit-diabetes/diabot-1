@@ -29,5 +29,7 @@ Lita.configure do |config|
   ## documentation for options.
   # config.handlers.some_handler.some_config_key = 'value'
 
+  config.handlers.keepalive.url = "https://diabot-discord.herokuapp.com"
+
   config.http.port = ENV['PORT']
 end
