@@ -15,7 +15,11 @@ Lita.configure do |config|
   # the ability to add and remove other users from authorization groups.
   # What is considered a user ID will change depending on which adapter you use.
   # config.robot.admins = ['1', '2']
-  config.robot.admins = ['189436077793083392']
+  config.robot.admins = [
+    '189436077793083392', # cas
+    '140155698658017280', # dosman711
+    '260489402441138176', # awaxa
+  ]
 
   # The adapter you want to connect with. Make sure you've added the
   # appropriate gem to the Gemfile.
