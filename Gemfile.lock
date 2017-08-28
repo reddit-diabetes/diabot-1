@@ -1,6 +1,7 @@
 GIT
-  remote: https://github.com/cascer1/lita-diabetter.git
+  remote: https://github.com/reddit-diabetes/lita-diabetter.git
   revision: 3570dcfad3a3561689d0513773008a0f4275981a
+  branch: 1.x
   specs:
     lita-diabetter (1.3.0)
 
