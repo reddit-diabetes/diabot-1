@@ -14,8 +14,7 @@ Lita.configure do |config|
   # An array of user IDs that are considered administrators. These users
   # the ability to add and remove other users from authorization groups.
   # What is considered a user ID will change depending on which adapter you use.
-  # config.robot.admins = ["1", "2"]
-
+  # config.robot.admins = ['1', '2']
   config.robot.admins = ['189436077793083392']
 
   # The adapter you want to connect with. Make sure you've added the
@@ -24,7 +23,6 @@ Lita.configure do |config|
   config.adapters.discord_oauth.token = ENV['TOKEN']
   config.adapters.discord_oauth.client = ENV['CLIENT']
 
-
   config.redis[:host] = ENV['DIABOT_REDIS_HOST']
   config.redis[:port] = ENV['DIABOT_REDIS_PORT']
   config.redis[:user] = ENV['DIABOT_REDIS_USER']
@@ -32,7 +30,7 @@ Lita.configure do |config|
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
-  # config.handlers.some_handler.some_config_key = "value"
+  # config.handlers.some_handler.some_config_key = 'value'
 
   config.http.port = ENV['PORT']
 end
