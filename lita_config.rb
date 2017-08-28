@@ -23,10 +23,7 @@ Lita.configure do |config|
   config.adapters.discord_oauth.token = ENV['TOKEN']
   config.adapters.discord_oauth.client = ENV['CLIENT']
 
-  config.redis[:host] = ENV['DIABOT_REDIS_HOST']
-  config.redis[:port] = ENV['DIABOT_REDIS_PORT']
-  config.redis[:user] = ENV['DIABOT_REDIS_USER']
-  config.redis[:password] = ENV['DIABOT_REDIS_PASS']
+  config.redis[:url] = ENV['REDISCLOUD_URL']
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
