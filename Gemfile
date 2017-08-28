@@ -23,3 +23,8 @@ gem 'lita-diabetter', :git => 'https://github.com/cascer1/lita-diabetter.git'
 # For example:
 # gem "lita-google-images"
 # gem "lita-karma"
+
+group :development do
+  gem 'pry'
+  gem 'rubocop'
+end
