@@ -16,9 +16,15 @@ Lita.configure do |config|
   # What is considered a user ID will change depending on which adapter you use.
   # config.robot.admins = ['1', '2']
   config.robot.admins = [
-    '189436077793083392', # cas
-    '140155698658017280', # dosman711
+    '125616270254014464', # Adi
     '260489402441138176', # awaxa
+    '98802238364876800',  # Brent
+    '189436077793083392', # cascer1
+    '140155698658017280', # dosman711
+    '182150298901544961', # Faythe
+    '182446110600593408', # Muffins
+    '186557012040089610', # Nadine
+    '226432660329725962', # Tom
   ]
 
   # The adapter you want to connect with. Make sure you've added the
