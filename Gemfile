@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'lita'
 gem 'lita-awyiss'
+gem 'lita-die'
 gem 'lita-discord_oauth'
 gem 'lita-excuses'
 gem 'lita-keepalive'
