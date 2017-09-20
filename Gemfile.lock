@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/awaxa/lita-restart.git
+  revision: 30fbcdf813a199650d1b92f13c2f994d0bd76b2e
+  specs:
+    lita-restart (1.0.2)
+      lita (>= 4.4)
+
+GIT
   remote: https://github.com/reddit-diabetes/lita-diabetter.git
   revision: 3570dcfad3a3561689d0513773008a0f4275981a
   branch: 1.x
@@ -48,8 +55,6 @@ GEM
     lita-awyiss (0.1.2)
       json
       lita (>= 4)
-    lita-die (1.0.1)
-      lita (>= 4.4)
     lita-discord_oauth (1.1.2)
       discordrb (>= 3.1.1)
     lita-excuses (0.0.6)
@@ -129,12 +134,12 @@ DEPENDENCIES
   lita
   lita-awyiss
   lita-diabetter!
-  lita-die
   lita-discord_oauth
   lita-excuses
   lita-keepalive
+  lita-restart!
   pry
   rubocop
 
 BUNDLED WITH
-   1.15.4
+   1.16.0.pre.2

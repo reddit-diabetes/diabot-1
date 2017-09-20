@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'lita'
 gem 'lita-awyiss'
-gem 'lita-die'
 gem 'lita-discord_oauth'
 gem 'lita-excuses'
 gem 'lita-keepalive'
@@ -17,6 +16,9 @@ gem 'lita-keepalive'
 gem 'lita-diabetter',
     git: 'https://github.com/reddit-diabetes/lita-diabetter.git',
     branch: '1.x'
+
+gem 'lita-restart',
+    git: 'https://github.com/awaxa/lita-restart.git'
 
 # Uncomment to use the HipChat adapter
 # gem 'lita-hipchat'
