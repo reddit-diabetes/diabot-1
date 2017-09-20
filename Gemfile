@@ -18,7 +18,8 @@ gem 'lita-diabetter',
     branch: '1.x'
 
 gem 'lita-restart',
-    git: 'https://github.com/awaxa/lita-restart.git'
+    git: 'https://github.com/reddit-diabetes/lita-restart.git',
+    branch: 'discord'
 
 # Uncomment to use the HipChat adapter
 # gem 'lita-hipchat'
