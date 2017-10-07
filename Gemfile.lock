@@ -58,6 +58,8 @@ GEM
       lita (>= 4)
     lita-discord_oauth (1.1.2)
       discordrb (>= 3.1.1)
+    lita-eval (0.2.0)
+      lita (~> 4.3)
     lita-excuses (0.0.6)
       lita (>= 2.2)
       nokogiri
@@ -134,6 +136,7 @@ DEPENDENCIES
   lita-awyiss
   lita-diabetter!
   lita-discord_oauth
+  lita-eval
   lita-excuses
   lita-keepalive
   lita-restart!
