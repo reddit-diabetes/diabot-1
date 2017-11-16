@@ -24,7 +24,8 @@ Lita.configure do |config|
     '182150298901544961', # Faythe
     '182446110600593408', # Muffins
     '186557012040089610', # Nadine
-    '226432660329725962', # Tom
+    '362837133289062401', # Tom
+    '188742723795288065', # Beyn
   ]
 
   # The adapter you want to connect with. Make sure you've added the
