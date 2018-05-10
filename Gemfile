@@ -11,9 +11,6 @@ gem 'lita-keepalive'
 # gem 'lita-diabetes', :git => 'https://github.com/reddit-diabetes/lita-diabetes.git'
 
 # Use cascer1's diabetes handler
-# gem 'lita-diabetter',
-#   git: 'https://github.com/cascer1/lita-diabetter.git',
-#   branch: 'develop'
 gem 'lita-diabetter',
     git: 'https://github.com/reddit-diabetes/lita-diabetter.git',
     branch: '1.x'

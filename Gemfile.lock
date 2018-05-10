@@ -1,13 +1,13 @@
 GIT
   remote: https://github.com/reddit-diabetes/lita-diabetter.git
-  revision: 5da658e99449c3f5ea87176965deaee3377e0dbd
+  revision: c786ddaffd7a87041885a8beadbb444f01ce0a58
   branch: 1.x
   specs:
-    lita-diabetter (1.3.1)
+    lita-diabetter (1.4.0)
 
 GIT
   remote: https://github.com/reddit-diabetes/lita-restart.git
-  revision: adc2483d4d440c9805361aab457a0a05ce481b55
+  revision: 4b937126d8c70997dfa054408b9a9c276f115512
   branch: discord
   specs:
     lita-restart (1.0.2)
@@ -16,7 +16,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    ast (2.3.0)
+    ast (2.4.0)
     coderay (1.1.2)
     concurrent-ruby (1.0.5)
     discordrb (3.2.1)
@@ -27,19 +27,19 @@ GEM
       websocket-client-simple (>= 0.3.0)
     discordrb-webhooks (3.2.0.1)
       rest-client
-    domain_name (0.5.20170404)
+    domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
     event_emitter (0.2.6)
-    faraday (0.13.1)
+    faraday (0.15.1)
       multipart-post (>= 1.2, < 3)
-    ffi (1.9.18)
-    ffi (1.9.18-x64-mingw32)
+    ffi (1.9.23)
+    ffi (1.9.23-x64-mingw32)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     http_router (0.11.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
-    i18n (0.9.1)
+    i18n (1.0.1)
       concurrent-ruby (~> 1.0)
     ice_nine (0.11.2)
     json (2.1.0)
@@ -75,21 +75,21 @@ GEM
     multi_json (1.13.1)
     multipart-post (2.0.0)
     netrc (0.11.0)
-    nokogiri (1.8.1)
+    nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
-    nokogiri (1.8.1-x64-mingw32)
+    nokogiri (1.8.2-x64-mingw32)
       mini_portile2 (~> 2.3.0)
     opus-ruby (1.0.1)
       ffi
     parallel (1.12.1)
-    parser (2.4.0.2)
-      ast (~> 2.3)
+    parser (2.5.1.0)
+      ast (~> 2.4.0)
     powerpack (0.1.1)
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    puma (3.11.0)
-    rack (1.6.8)
+    puma (3.11.4)
+    rack (1.6.10)
     rainbow (3.0.0)
     rb-readline (0.5.5)
     rbnacl (3.4.0)
@@ -106,9 +106,9 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
-    rubocop (0.52.1)
+    rubocop (0.55.0)
       parallel (~> 1.10)
-      parser (>= 2.4.0.2, < 3.0)
+      parser (>= 2.5)
       powerpack (~> 0.1)
       rainbow (>= 2.2.2, < 4.0)
       ruby-progressbar (~> 1.7)
@@ -117,9 +117,9 @@ GEM
     thor (0.20.0)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.4)
-    unf_ext (0.0.7.4-x64-mingw32)
-    unicode-display_width (1.3.0)
+    unf_ext (0.0.7.5)
+    unf_ext (0.0.7.5-x64-mingw32)
+    unicode-display_width (1.3.2)
     url_mount (0.2.1)
       rack
     websocket (1.2.5)
