@@ -15,9 +15,10 @@ gem 'lita-diabetter',
     git: 'https://github.com/reddit-diabetes/lita-diabetter.git',
     branch: '1.x'
 
-gem 'lita-restart',
-    git: 'https://github.com/reddit-diabetes/lita-restart.git',
-    branch: 'discord'
+# Restart gem disabled because it doesn't work with dokku
+#gem 'lita-restart',
+#    git: 'https://github.com/reddit-diabetes/lita-restart.git',
+#    branch: 'discord'
 
 # Uncomment to use the HipChat adapter
 # gem 'lita-hipchat'
