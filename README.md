@@ -2,6 +2,10 @@
 
 > Diabetes Discord Bot
 
+## Archived
+This project has been replaced with a newer Java version (also found in the `reddit-diabetes` organization on GitHub).
+The repository has been archived to reflect this status.
+
 ## Add the bot to your server
 
 *deploy it yourself, because the bot is slow enough without sharing ;)* 
@@ -11,10 +15,6 @@ type `diabot help <command>` for help on a specific command.
 
 ## Run the bot by yourself using Heroku
 //TODO: [![Deploy on Heroku][deploy-image]][deploy-url]
-
-### Usage
-
-// TODO
 
 ## License
 
